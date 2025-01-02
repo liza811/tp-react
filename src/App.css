@@ -6,7 +6,10 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.scale-103:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s ease-in-out;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
